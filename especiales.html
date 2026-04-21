@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Especiales</title>
+</head>
+
+<body>
+
+    <header style="background-color: beige; padding: 10px;">
+        <h1>Tipos de Input en HTML</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="texto.html">Texto</a></li>
+                <li><a href="fechas.html">Fechas</a></li>
+                <li><a href="seleccion.html">Selección</a></li>
+                <li><a href="#">Especiales</a></li>
+                <li><a href="botones.html">Botones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h2>Inputs Especiales</h2>
+
+        <p>
+            Los inputs especiales son aquellos que cumplen funciones técnicas específicas dentro de formularios web.
+        </p>
+
+        <p><strong>Nota:</strong> Los botones son solo para práctica del funcionamiento de los inputs.</p>
+
+        <form>
+
+            <h3>1. Input type="number"</h3>
+            <p>Permite ingresar únicamente valores numéricos en un campo controlado.</p>
+            <input type="number" placeholder="Ingrese un número">
+            <br><br>
+
+            <hr>
+
+            <h3>2. Input type="hidden"</h3>
+            <p>Campo oculto que almacena información sin mostrarse al usuario.</p>
+
+            <input type="text" placeholder="Nombre">
+            <input type="hidden" name="id_usuario" value="789">
+            <input type="submit" value="Enviar">
+            <p>Después de enviar el formulario, este dato (como un ID o código interno)
+                se envía al servidor sin que el usuario lo vea ni lo pueda modificar.</p>
+
+            <img src="../img/ejemplo.png " alt="Ejemplo de input hidden" style="width: 500px">
+            <br><br>
+
+            <hr>
+
+        </form>
+
+    </main>
+
+    <footer style="background-color: beige; text-align: center; padding: 10px;">
+        <p>Todos los derechos reservados &copy; 2026</p>
+    </footer>
+
+</body>
+
+</html>
